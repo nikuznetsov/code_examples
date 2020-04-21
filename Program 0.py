@@ -1,3 +1,16 @@
+'''
+RuCode-2020
+
+Let's call a safe string consisting of lowercase Latin letters and spaces, in which between 
+any two letters contain at least two spaces. You are given a string, check whether it is secure.
+
+standard input: s  o  c  i  a  l  d  i  s  t  a  n  c  i  n  g
+standard output:safe
+
+standard input: virus
+standard output: unsafe
+'''
+
 s = input()
 lst = []
 flag = True
