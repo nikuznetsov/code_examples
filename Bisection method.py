@@ -39,7 +39,7 @@ def searching(a,b):
 			a1+=step
 
 function=input('Input the function: ')
-a= eval(input('Input the lower limit: '))
+a=eval(input('Input the lower limit: '))
 b=eval(input('Input the high limit: '))
 err=eval(input('Input the accuracy: '))
 step=eval(input('Input the step of search: '))
