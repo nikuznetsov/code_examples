@@ -1,3 +1,7 @@
+'''
+The simplest numerical method for solving nonlinear equations of the form f(x)=0
+'''
+
 from math import *
 from time import time
 import sys
