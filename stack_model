@@ -1,0 +1,36 @@
+# Modeling of functions of stack
+def create(namesp, arg):
+  global nms
+  if arg in nms:
+    nms[arg][0].append(namesp)
+    nms[namesp] = [[],[],[]]
+    nms[namesp][2].append(arg)
+  else:
+    nms[arg] = [[],[],[]]
+    nms[arg][0].append(namesp)
+
+def add(namesp, arg):
+  global nms
+  nms[namesp][1].append(arg)
+  
+def get(namesp, arg):
+  global nms
+  if arg in nms[namesp][1]:
+    print(namesp)
+  else:
+    if namesp != 'global':
+      get(nms[namesp][2][0], arg)
+    else:
+      print('None')
+
+n = int(input())
+nms = {'global': [[],[],[]]}
+
+for i in range(n):
+  cmd, namesp, arg = input().split(' ')
+  if cmd == 'create':
+    create(namesp, arg)
+  elif cmd == 'add':
+    add(namesp, arg)
+  elif cmd == 'get':
+    get(namesp, arg)
