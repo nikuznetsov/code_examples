@@ -1,4 +1,4 @@
-# Check if class is parent or not
+# Check if class is parent or not using graphs
 # Input:
 # 4
 # A
