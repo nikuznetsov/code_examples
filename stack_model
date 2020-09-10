@@ -1,4 +1,5 @@
-# Modeling of functions of stack
+# Model of STACK process
+
 def create(namesp, arg):
   global nms
   if arg in nms:
