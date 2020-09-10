@@ -11,3 +11,4 @@ _**Краткое описание программ:**_
  6. [number_letter_counts.py](https://github.com/nikuznetsov/code_examples/blob/master/number_letter_counts.py "number_letter_counts.py").  Решение задачи 17 из ***Проекта Эйлера***.  Считает, сколько букв понадобится для записи всех чисел от 1 до 1000 включительно.
  7. [parent_check.py](https://github.com/nikuznetsov/code_examples/blob/master/parent_check.py "parent_check.py"). Программа проверяет наследственность классов и говорит, является ли класс родителем другого или нет. Задача на графы.
  8. [social_distancing.py](https://github.com/nikuznetsov/code_examples/blob/master/social_distancing.py "social_distancing.py").  Программа, решающая задачу с ***RuCode-2020***. Она говорит, является ли строка "безопасной": между буквами должно быть минимум два пробела.
+ 9. [stack_model.py](https://github.com/nikuznetsov/code_examples/blob/master/stack_model.py "stack_model.py").  Программа моделирует работу типа данных стек.
