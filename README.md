@@ -1,5 +1,5 @@
 # code_examples
-_ In this repository, I would like to provide some examples of my programs. They are written using the Python language. Also, there are not only files with the extension .py, but also notebooks with the .ipynb extension._
+_In this repository, I would like to provide some examples of my programs. They are written using the Python language. Also, there are not only files with the extension .py, but also notebooks with the .ipynb extension._
 
 _**Brief description of the programs:**_
 
